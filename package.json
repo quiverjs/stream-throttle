@@ -1,0 +1,36 @@
+{
+  "author": {
+    "name": "Soares Chen",
+    "email": "soares.chen@gmail.com",
+    "url": "http://soareschen.com"
+  },
+  "name": "quiver-stream-throttle",
+  "desription": "Throttle the bandwidth of a quiver stream",
+  "version": "0.0.1",
+  "homepage": "https://github.com/quiverjs/stream-throttle",
+  "repository": {
+    "url": "git@github.com:quiverjs/stream-throttle.git"
+  },
+  "dependencies": {
+    "moment": "2.x.x",
+    "quiver-stream-channel": ">=0.0.7"
+  },
+  "devDependencies": {
+    "quiver-pipe-stream": ">=0.0.1",
+    "quiver-stream-convert": ">=0.0.6",
+    "mocha": ">=1.8.1",
+    "should": ">=1.2.2"
+  },
+  "bugs": {
+    "url": "https://github.com/quiverjs/stream-throttle/issues",
+    "email": "quiverjs@soareschen.com"
+  },
+  "licenses": {
+    "type": "MIT",
+    "url": "https://raw.github.com/quiverjs/license/master/LICENSE"
+  },
+  "main": "./lib/stream-throttle",
+  "scripts": {
+    "test": "make test"
+  }
+}
